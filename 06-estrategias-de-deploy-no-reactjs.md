@@ -30,3 +30,23 @@
 ```bash
 yarn create react-app cranetlify --template typescript
 ```
+
+# 3. Publicação na Vercel
+
+## 3.1. Vercel CLI
+
+https://vercel.com/cli
+
+### 3.1.1. Instalação
+
+```bash
+yarn global add vercel@latest
+```
+
+### 3.1.2. Execução
+
+```bash
+vercel login
+
+vercel
+```
